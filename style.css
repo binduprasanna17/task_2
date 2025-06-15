@@ -1,0 +1,88 @@
+
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+    }
+
+    .main {
+      padding: 40px 20px;
+    }
+
+    .main h1 {
+      font-size: 2.5em;
+      margin-bottom: 0;
+    }
+
+    .main p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #bbb;
+    }
+
+    .play-icon {
+      font-size: 40px;
+      margin: 20px 0;
+      display: inline-block;
+      border: 2px solid white;
+      border-radius: 50%;
+      padding: 10px 14px;
+      cursor: pointer;
+    }
+
+    .quote-section {
+      background-color: #fff;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+    .quote-text {
+      flex: 1;
+      font-size: 1.4em;
+      padding: 10px 20px;
+    }
+
+    .quote-img {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .quote-img img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .bio-section {
+      padding: 50px 20px;
+      background-color: #111;
+    }
+
+    .bio-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .bio-section p {
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8em;
+      color: #ccc;
+    }
+
+    footer {
+      border-top: 1px solid #444;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    footer a {
+      color: #4dabf7;
+      text-decoration: none;
+    }
